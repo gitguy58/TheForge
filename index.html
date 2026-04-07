@@ -232,7 +232,6 @@ function catalog(){
         <div class="tags">${p.tags.map((tg,i)=>`<span class="tag${i<3&&p.star?' hl':''}">${tg}</span>`).join('')}</div>
         <div class="cf">
           ${p.cc?'<span class="ccb">Claude Code</span>':'<span></span>'}
-          ${p.link?`<a class="cl" href="${p.link}" target="_blank">View chat</a>`:'<span class="nl">Local project</span>'}
         </div>
       </div>`;
     }).join('')}</div>
